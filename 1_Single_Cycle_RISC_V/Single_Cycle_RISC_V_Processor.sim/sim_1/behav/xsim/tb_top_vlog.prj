@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/adder_32.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/alu_logic.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/control_unit.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/data_mem.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/imm_gen.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/inst_mem.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/mux_2x1.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/program_counter.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/reg_file.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sources_1/new/top.sv" \
+"../../../../Single_Cycle_RISC_V_Processor.srcs/sim_1/new/top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

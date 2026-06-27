@@ -1,0 +1,503 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+--------------------------------------------------------------
+Time: 20000 ns
+FETCH:      PC=0x00000000  Instr=0x00300313  PC+4=0x00000004
+DECODE:     PC=0x00000000  Instr=0x00000000  Imm=0x00000000  rs1= 0 rs2= 0 rd= 0  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000000  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 30000 ns
+FETCH:      PC=0x00000004  Instr=0x00400393  PC+4=0x00000008
+DECODE:     PC=0x00000000  Instr=0x00300313  Imm=0x00000003  rs1= 0 rs2= 3 rd= 6  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000000  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 40000 ns
+FETCH:      PC=0x00000008  Instr=0x00400e13  PC+4=0x0000000c
+DECODE:     PC=0x00000004  Instr=0x00400393  Imm=0x00000004  rs1= 0 rs2= 4 rd= 7  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000000  SrcA=0x00000000  SrcB=0x00000003  ALUout=0x00000003  Zero=0  ALUctrl=000  PCSrc=0  ALUSrc=1
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 50000 ns
+FETCH:      PC=0x0000000c  Instr=0x01c38a63  PC+4=0x00000010
+DECODE:     PC=0x00000008  Instr=0x00400e13  Imm=0x00000004  rs1= 0 rs2= 4 rd=28  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000004  SrcA=0x00000000  SrcB=0x00000004  ALUout=0x00000004  Zero=0  ALUctrl=000  PCSrc=0  ALUSrc=1
+MEMORY:     ALUres=0x00000003  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 6
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 60000 ns
+FETCH:      PC=0x00000010  Instr=0x007302b3  PC+4=0x00000014
+DECODE:     PC=0x0000000c  Instr=0x01c38a63  Imm=0x00000014  rs1= 7 rs2=28 rd=20  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000008  SrcA=0x00000000  SrcB=0x00000004  ALUout=0x00000004  Zero=0  ALUctrl=000  PCSrc=0  ALUSrc=1
+MEMORY:     ALUres=0x00000004  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 7
+WRITEBACK:  Result=0x00000003  RegWrite=1  rd= 6  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 70000 ns
+FETCH:      PC=0x00000014  Instr=0x007302b3  PC+4=0x00000018
+DECODE:     PC=0x00000010  Instr=0x007302b3  Imm=0x00000000  rs1= 6 rs2= 7 rd= 5  SrcA=0x00000003  WriteData=0x00000004
+EXECUTE:    PC=0x0000000c  SrcA=0x00000004  SrcB=0x00000004  ALUout=0x00000000  Zero=1  ALUctrl=001  PCSrc=1  ALUSrc=0
+MEMORY:     ALUres=0x00000004  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd=28
+WRITEBACK:  Result=0x00000004  RegWrite=1  rd= 7  ResultSrc=00
+HAZARD:     ForwardAE=01 ForwardBE=10  StallF=0 StallD=0  FlushD=1 FlushE=1
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 80000 ns
+FETCH:      PC=0x00000020  Instr=0x407302b3  PC+4=0x00000024
+DECODE:     PC=0x00000000  Instr=0x00000000  Imm=0x00000000  rs1= 0 rs2= 0 rd= 0  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000000  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000004  MemR=0  MemW=0  ReadData=0x00000000  rd=20
+WRITEBACK:  Result=0x00000004  RegWrite=1  rd=28  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000000
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 90000 ns
+FETCH:      PC=0x00000024  Instr=0x407302b3  PC+4=0x00000028
+DECODE:     PC=0x00000020  Instr=0x407302b3  Imm=0x00000000  rs1= 6 rs2= 7 rd= 5  SrcA=0x00000003  WriteData=0x00000004
+EXECUTE:    PC=0x00000000  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd=20  ResultSrc=xx
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 100000 ns
+FETCH:      PC=0x00000028  Instr=0x00702023  PC+4=0x0000002c
+DECODE:     PC=0x00000024  Instr=0x407302b3  Imm=0x00000000  rs1= 6 rs2= 7 rd= 5  SrcA=0x00000003  WriteData=0x00000004
+EXECUTE:    PC=0x00000020  SrcA=0x00000003  SrcB=0x00000004  ALUout=0xffffffff  Zero=0  ALUctrl=001  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 110000 ns
+FETCH:      PC=0x0000002c  Instr=0x00002283  PC+4=0x00000030
+DECODE:     PC=0x00000028  Instr=0x00702023  Imm=0x00000000  rs1= 0 rs2= 7 rd= 0  SrcA=0x00000000  WriteData=0x00000004
+EXECUTE:    PC=0x00000024  SrcA=0x00000003  SrcB=0x00000004  ALUout=0xffffffff  Zero=0  ALUctrl=001  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xffffffff  WriteData=0x00000004  MemR=0  MemW=0  ReadData=0x00000000  rd= 5
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 120000 ns
+FETCH:      PC=0x00000030  Instr=0x006283b3  PC+4=0x00000034
+DECODE:     PC=0x0000002c  Instr=0x00002283  Imm=0x00000000  rs1= 0 rs2= 0 rd= 5  SrcA=0x00000000  WriteData=0x00000000
+EXECUTE:    PC=0x00000028  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=1
+MEMORY:     ALUres=0xffffffff  WriteData=0x00000004  MemR=0  MemW=0  ReadData=0x00000000  rd= 5
+WRITEBACK:  Result=0xffffffff  RegWrite=1  rd= 5  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 130000 ns
+FETCH:      PC=0x00000034  Instr=0xxxxxxxxx  PC+4=0x00000038
+DECODE:     PC=0x00000030  Instr=0x006283b3  Imm=0x00000000  rs1= 5 rs2= 6 rd= 7  SrcA=0xffffffff  WriteData=0x00000003
+EXECUTE:    PC=0x0000002c  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=1
+MEMORY:     ALUres=0x00000000  WriteData=0x00000004  MemR=0  MemW=1  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0xffffffff  RegWrite=1  rd= 5  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=1 StallD=1  FlushD=0 FlushE=1
+REGISTERS:  t0(x5)=0xffffffff  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 140000 ns
+FETCH:      PC=0x00000034  Instr=0xxxxxxxxx  PC+4=0x00000038
+DECODE:     PC=0x00000030  Instr=0x006283b3  Imm=0x00000000  rs1= 5 rs2= 6 rd= 7  SrcA=0xffffffff  WriteData=0x00000003
+EXECUTE:    PC=0x00000000  SrcA=0x00000000  SrcB=0x00000000  ALUout=0x00000000  Zero=1  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=1  MemW=0  ReadData=0x00000004  rd= 5
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=xx
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0xffffffff  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 150000 ns
+FETCH:      PC=0x00000038  Instr=0xxxxxxxxx  PC+4=0x0000003c
+DECODE:     PC=0x00000034  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000030  SrcA=0x00000004  SrcB=0x00000003  ALUout=0x00000007  Zero=0  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000000  WriteData=0x00000000  MemR=0  MemW=0  ReadData=0x00000000  rd= 0
+WRITEBACK:  Result=0x00000004  RegWrite=1  rd= 5  ResultSrc=01
+HAZARD:     ForwardAE=01 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0xffffffff  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 160000 ns
+FETCH:      PC=0x0000003c  Instr=0xxxxxxxxx  PC+4=0x00000040
+DECODE:     PC=0x00000038  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000034  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0x00000007  WriteData=0x00000003  MemR=0  MemW=0  ReadData=0x00000000  rd= 7
+WRITEBACK:  Result=0x00000000  RegWrite=0  rd= 0  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 170000 ns
+FETCH:      PC=0x00000040  Instr=0xxxxxxxxx  PC+4=0x00000044
+DECODE:     PC=0x0000003c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000038  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0x00000007  RegWrite=1  rd= 7  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 180000 ns
+FETCH:      PC=0x00000044  Instr=0xxxxxxxxx  PC+4=0x00000048
+DECODE:     PC=0x00000040  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000003c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 190000 ns
+FETCH:      PC=0x00000048  Instr=0xxxxxxxxx  PC+4=0x0000004c
+DECODE:     PC=0x00000044  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000040  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 200000 ns
+FETCH:      PC=0x0000004c  Instr=0xxxxxxxxx  PC+4=0x00000050
+DECODE:     PC=0x00000048  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000044  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 210000 ns
+FETCH:      PC=0x00000050  Instr=0xxxxxxxxx  PC+4=0x00000054
+DECODE:     PC=0x0000004c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000048  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 220000 ns
+FETCH:      PC=0x00000054  Instr=0xxxxxxxxx  PC+4=0x00000058
+DECODE:     PC=0x00000050  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000004c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 230000 ns
+FETCH:      PC=0x00000058  Instr=0xxxxxxxxx  PC+4=0x0000005c
+DECODE:     PC=0x00000054  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000050  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 240000 ns
+FETCH:      PC=0x0000005c  Instr=0xxxxxxxxx  PC+4=0x00000060
+DECODE:     PC=0x00000058  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000054  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 250000 ns
+FETCH:      PC=0x00000060  Instr=0xxxxxxxxx  PC+4=0x00000064
+DECODE:     PC=0x0000005c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000058  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 260000 ns
+FETCH:      PC=0x00000064  Instr=0xxxxxxxxx  PC+4=0x00000068
+DECODE:     PC=0x00000060  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000005c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 270000 ns
+FETCH:      PC=0x00000068  Instr=0xxxxxxxxx  PC+4=0x0000006c
+DECODE:     PC=0x00000064  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000060  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 280000 ns
+FETCH:      PC=0x0000006c  Instr=0xxxxxxxxx  PC+4=0x00000070
+DECODE:     PC=0x00000068  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000064  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 290000 ns
+FETCH:      PC=0x00000070  Instr=0xxxxxxxxx  PC+4=0x00000074
+DECODE:     PC=0x0000006c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000068  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 300000 ns
+FETCH:      PC=0x00000074  Instr=0xxxxxxxxx  PC+4=0x00000078
+DECODE:     PC=0x00000070  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000006c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 310000 ns
+FETCH:      PC=0x00000078  Instr=0xxxxxxxxx  PC+4=0x0000007c
+DECODE:     PC=0x00000074  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000070  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 320000 ns
+FETCH:      PC=0x0000007c  Instr=0xxxxxxxxx  PC+4=0x00000080
+DECODE:     PC=0x00000078  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000074  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 330000 ns
+FETCH:      PC=0x00000080  Instr=0xxxxxxxxx  PC+4=0x00000084
+DECODE:     PC=0x0000007c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000078  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 340000 ns
+FETCH:      PC=0x00000084  Instr=0xxxxxxxxx  PC+4=0x00000088
+DECODE:     PC=0x00000080  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000007c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 350000 ns
+FETCH:      PC=0x00000088  Instr=0xxxxxxxxx  PC+4=0x0000008c
+DECODE:     PC=0x00000084  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000080  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 360000 ns
+FETCH:      PC=0x0000008c  Instr=0xxxxxxxxx  PC+4=0x00000090
+DECODE:     PC=0x00000088  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000084  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 370000 ns
+FETCH:      PC=0x00000090  Instr=0xxxxxxxxx  PC+4=0x00000094
+DECODE:     PC=0x0000008c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000088  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 380000 ns
+FETCH:      PC=0x00000094  Instr=0xxxxxxxxx  PC+4=0x00000098
+DECODE:     PC=0x00000090  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000008c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 390000 ns
+FETCH:      PC=0x00000098  Instr=0xxxxxxxxx  PC+4=0x0000009c
+DECODE:     PC=0x00000094  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000090  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 400000 ns
+FETCH:      PC=0x0000009c  Instr=0xxxxxxxxx  PC+4=0x000000a0
+DECODE:     PC=0x00000098  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000094  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 410000 ns
+FETCH:      PC=0x000000a0  Instr=0xxxxxxxxx  PC+4=0x000000a4
+DECODE:     PC=0x0000009c  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x00000098  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 420000 ns
+FETCH:      PC=0x000000a4  Instr=0xxxxxxxxx  PC+4=0x000000a8
+DECODE:     PC=0x000000a0  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x0000009c  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 430000 ns
+FETCH:      PC=0x000000a8  Instr=0xxxxxxxxx  PC+4=0x000000ac
+DECODE:     PC=0x000000a4  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000a0  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 440000 ns
+FETCH:      PC=0x000000ac  Instr=0xxxxxxxxx  PC+4=0x000000b0
+DECODE:     PC=0x000000a8  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000a4  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 450000 ns
+FETCH:      PC=0x000000b0  Instr=0xxxxxxxxx  PC+4=0x000000b4
+DECODE:     PC=0x000000ac  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000a8  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 460000 ns
+FETCH:      PC=0x000000b4  Instr=0xxxxxxxxx  PC+4=0x000000b8
+DECODE:     PC=0x000000b0  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000ac  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 470000 ns
+FETCH:      PC=0x000000b8  Instr=0xxxxxxxxx  PC+4=0x000000bc
+DECODE:     PC=0x000000b4  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000b0  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 480000 ns
+FETCH:      PC=0x000000bc  Instr=0xxxxxxxxx  PC+4=0x000000c0
+DECODE:     PC=0x000000b8  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000b4  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 490000 ns
+FETCH:      PC=0x000000c0  Instr=0xxxxxxxxx  PC+4=0x000000c4
+DECODE:     PC=0x000000bc  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000b8  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 500000 ns
+FETCH:      PC=0x000000c4  Instr=0xxxxxxxxx  PC+4=0x000000c8
+DECODE:     PC=0x000000c0  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000bc  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+--------------------------------------------------------------
+Time: 510000 ns
+FETCH:      PC=0x000000c8  Instr=0xxxxxxxxx  PC+4=0x000000cc
+DECODE:     PC=0x000000c4  Instr=0xxxxxxxxx  Imm=0x00000000  rs1=x rs2=x rd=x  SrcA=0xxxxxxxxx  WriteData=0xxxxxxxxx
+EXECUTE:    PC=0x000000c0  SrcA=0xxxxxxxxx  SrcB=0xxxxxxxxx  ALUout=0xxxxxxxxx  Zero=x  ALUctrl=000  PCSrc=0  ALUSrc=0
+MEMORY:     ALUres=0xxxxxxxxx  WriteData=0xxxxxxxxx  MemR=0  MemW=0  ReadData=0x00000000  rd=x
+WRITEBACK:  Result=0xxxxxxxxx  RegWrite=0  rd=x  ResultSrc=00
+HAZARD:     ForwardAE=00 ForwardBE=00  StallF=0 StallD=0  FlushD=0 FlushE=0
+REGISTERS:  t0(x5)=0x00000004  t1(x6)=0x00000003  t2(x7)=0x00000007  t3(x28)=0x00000004
+--------------------------------------------------------------
+$finish called at time : 520 ns : File "C:/Users/user/Desktop/Micro_Architecture/branch_pred_project/branch_pred_project.srcs/sim_1/new/tb.sv" Line 30

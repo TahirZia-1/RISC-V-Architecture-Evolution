@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/ALU.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/Old_PC.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/REG_FILE.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/buff_reg.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/control_unit.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/imm_Gen.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/muxes.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sources_1/new/top.sv" \
+"../../../../multi_cycle_RISC_V_005.srcs/sim_1/new/tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

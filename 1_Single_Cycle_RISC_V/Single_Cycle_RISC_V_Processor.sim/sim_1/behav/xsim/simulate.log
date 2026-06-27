@@ -1,0 +1,25 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Time: 0 | PC: x | INSN: xxxxxxxx | ALU_Out: x | RegW: x | x1: 00000000 | x2: 00000000 | x3: 00000000 | Mem[0]: 0000002a
+Time: 5000 | PC:   0 | INSN: 00c001ef | ALU_Out: x | RegW: 1 | x1: 00000000 | x2: 00000000 | x3: 00000000 | Mem[0]: 0000002a
+Time: 15000 | PC:  12 | INSN: 00002083 | ALU_Out:   0 | RegW: 1 | x1: 00000000 | x2: 00000000 | x3: 00000004 | Mem[0]: 0000002a
+Time: 25000 | PC:  16 | INSN: fe000ae3 | ALU_Out:   0 | RegW: 0 | x1: 0000002a | x2: 00000000 | x3: 00000004 | Mem[0]: 0000002a
+Time: 35000 | PC:   4 | INSN: 00108133 | ALU_Out:  84 | RegW: 1 | x1: 0000002a | x2: 00000000 | x3: 00000004 | Mem[0]: 0000002a
+Time: 45000 | PC:   8 | INSN: 00202223 | ALU_Out:   4 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 55000 | PC:  12 | INSN: 00002083 | ALU_Out:   0 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 65000 | PC:  16 | INSN: fe000ae3 | ALU_Out:   0 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 75000 | PC:   4 | INSN: 00108133 | ALU_Out:  84 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 85000 | PC:   8 | INSN: 00202223 | ALU_Out:   4 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 95000 | PC:  12 | INSN: 00002083 | ALU_Out:   0 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 105000 | PC:  16 | INSN: fe000ae3 | ALU_Out:   0 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 115000 | PC:   4 | INSN: 00108133 | ALU_Out:  84 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 125000 | PC:   8 | INSN: 00202223 | ALU_Out:   4 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 135000 | PC:  12 | INSN: 00002083 | ALU_Out:   0 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 145000 | PC:  16 | INSN: fe000ae3 | ALU_Out:   0 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 155000 | PC:   4 | INSN: 00108133 | ALU_Out:  84 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 165000 | PC:   8 | INSN: 00202223 | ALU_Out:   4 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 175000 | PC:  12 | INSN: 00002083 | ALU_Out:   0 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 185000 | PC:  16 | INSN: fe000ae3 | ALU_Out:   0 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 195000 | PC:   4 | INSN: 00108133 | ALU_Out:  84 | RegW: 1 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+Time: 205000 | PC:   8 | INSN: 00202223 | ALU_Out:   4 | RegW: 0 | x1: 0000002a | x2: 00000054 | x3: 00000004 | Mem[0]: 0000002a
+$finish called at time : 212 ns : File "C:/Users/user/Desktop/Micro_Architecture/single_cycle_RISC_V_005/Single_Cycle_RISC_V_Processor.srcs/sim_1/new/top_tb.sv" Line 51
