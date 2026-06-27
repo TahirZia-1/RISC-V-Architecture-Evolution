@@ -24,6 +24,8 @@ The processor supports core RISC-V instruction formats:
 
 ## 🚀 The 5-Stage Pipelined Core & Hazard Mitigation
 
+![RISC-V Pipelined Architecture Block Diagram](git_pipe.PNG)
+
 Designing the pipelined core (`03_Pipelined`) required solving complex timing and dependency issues. A dedicated **Hazard Unit** was engineered to maintain high throughput and guarantee state correctness:
 
 1.  **Data Forwarding (Bypassing):**
@@ -46,8 +48,3 @@ The core was rigorously verified using custom assembly test programs loaded into
 1. Compile all `.sv` files in the desired architecture directory (e.g., `03_Pipelined`).
 2. Run the associated testbench (`tb_RISCV_Pipelined.sv`).
 3. View the generated `dump.vcd` file in your preferred waveform viewer to observe pipeline stage registers, forwarding multiplexer selections, and hazard unit stall/flush signals.
-
-## 🤝 Author
-
-**Muhammad Tahir Zia**
-* [LinkedIn](Insert_Your_LinkedIn_URL_Here)
