@@ -24,7 +24,7 @@ The processor supports core RISC-V instruction formats:
 
 ## 🚀 The 5-Stage Pipelined Core & Hazard Mitigation
 
-![RISC-V Pipelined Architecture Block Diagram](git_pipe.PNG)
+![RISC-V Pipelined Architecture Block Diagram](Pipelined_Block_Diagram.PNG)
 
 Designing the pipelined core (`03_Pipelined`) required solving complex timing and dependency issues. A dedicated **Hazard Unit** was engineered to maintain high throughput and guarantee state correctness:
 
