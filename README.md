@@ -26,6 +26,14 @@ The processor supports core RISC-V instruction formats:
 
 ![RISC-V Pipelined Architecture Block Diagram](Pipelined_Block_Diagram.png)
 
+![RISC-V Pipelined Architecture Schematic](schematic.png)
+
+![RISC-V Pipelined Architecture Upper Waveform](w1.png)
+
+![RISC-V Pipelined Architecture Lower Waveform](w2.png)
+
+
+
 Designing the pipelined core (`03_Pipelined`) required solving complex timing and dependency issues. A dedicated **Hazard Unit** was engineered to maintain high throughput and guarantee state correctness:
 
 1.  **Data Forwarding (Bypassing):**
