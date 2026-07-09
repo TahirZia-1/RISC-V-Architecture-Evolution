@@ -69,4 +69,4 @@ The core was rigorously verified using custom assembly test programs loaded into
 
 ## 🤝 Author
 **Muhammad Tahir Zia**
-* [LinkedIn]([https://www.linkedin.com/in/muhammad-tahir-zia-6138592a9])
+* [LinkedIn](https://www.linkedin.com/in/muhammad-tahir-zia-6138592a9)
