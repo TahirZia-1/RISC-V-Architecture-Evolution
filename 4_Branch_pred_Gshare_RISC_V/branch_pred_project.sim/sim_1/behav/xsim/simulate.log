@@ -1,0 +1,986 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+--------------------------------------------------------------
+Time: 20000 ns
+FETCH:    PC=0x00000000  Instr=0x00300313  | GSHARE: GHR=00000000 Hash=00000000 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 30000 ns
+FETCH:    PC=0x00000004  Instr=0x00400393  | GSHARE: GHR=00000000 Hash=00000001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00300313  rs1= 0 rs2= 3 rd= 6
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 40000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00000000 Hash=00000010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000004  Instr=0x00400393  rs1= 0 rs2= 4 rd= 7
+EXECUTE:  PC=0x00000000  ALUout=0x00000003  Zero=0 | MISPREDICT=0 ActualTgt=0x00000003
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 50000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00000000 Hash=00000011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000004  ALUout=0x00000004  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000003  rd= 6
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 60000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00000000 Hash=00000100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000004  rd= 7
+WRITEBACK:Result=0x00000003  RegWrite=1  rd= 6
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000000  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 70000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00000000 Hash=00000101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000004  RegWrite=1  rd= 7
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000000  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 80000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00000000 Hash=00000110 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 1 | Mispredicts: 1 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000000  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 90000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00000001 Hash=00000011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 1 | Mispredicts: 1 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000000
+--------------------------------------------------------------
+Time: 100000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00000001 Hash=00000010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 1 | Mispredicts: 1 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 110000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00000001 Hash=00000101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 1 | Mispredicts: 1 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 120000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00000001 Hash=00000100 PHT=10 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 1 | Mispredicts: 1 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 130000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00000001 Hash=00000111 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 2 | Mispredicts: 2 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 140000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00000011 Hash=00000001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 2 | Mispredicts: 2 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 150000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00000011 Hash=00000000 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 2 | Mispredicts: 2 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 160000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00000011 Hash=00000111 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 2 | Mispredicts: 2 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 170000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00000011 Hash=00000110 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 2 | Mispredicts: 2 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 180000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00000011 Hash=00000101 PHT=10 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 3 | Mispredicts: 3 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 190000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00000111 Hash=00000101 PHT=10 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 3 | Mispredicts: 3 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 200000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00000111 Hash=00000100 PHT=10 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 3 | Mispredicts: 3 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 210000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00000111 Hash=00000011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 3 | Mispredicts: 3 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 220000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00000111 Hash=00000010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 3 | Mispredicts: 3 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 230000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00000111 Hash=00000001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 4 | Mispredicts: 4 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 240000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00001111 Hash=00001101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 4 | Mispredicts: 4 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 250000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00001111 Hash=00001100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 4 | Mispredicts: 4 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 260000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00001111 Hash=00001011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 4 | Mispredicts: 4 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 270000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00001111 Hash=00001010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 4 | Mispredicts: 4 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 280000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00001111 Hash=00001001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 5 | Mispredicts: 5 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 290000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00011111 Hash=00011101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 5 | Mispredicts: 5 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 300000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00011111 Hash=00011100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 5 | Mispredicts: 5 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 310000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00011111 Hash=00011011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 5 | Mispredicts: 5 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 320000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00011111 Hash=00011010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 5 | Mispredicts: 5 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 330000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00011111 Hash=00011001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 6 | Mispredicts: 6 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 340000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=00111111 Hash=00111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 6 | Mispredicts: 6 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 350000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=00111111 Hash=00111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 6 | Mispredicts: 6 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 360000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=00111111 Hash=00111011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 6 | Mispredicts: 6 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 370000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=00111111 Hash=00111010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 6 | Mispredicts: 6 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 380000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=00111111 Hash=00111001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 7 | Mispredicts: 7 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 390000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=01111111 Hash=01111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 7 | Mispredicts: 7 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 400000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=01111111 Hash=01111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 7 | Mispredicts: 7 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 410000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=01111111 Hash=01111011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 7 | Mispredicts: 7 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 420000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=01111111 Hash=01111010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 7 | Mispredicts: 7 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 430000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=01111111 Hash=01111001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 8 | Mispredicts: 8 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 440000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 8 | Mispredicts: 8 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 450000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 8 | Mispredicts: 8 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 460000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 8 | Mispredicts: 8 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 470000 ns
+FETCH:    PC=0x00000014  Instr=0x00000000  | GSHARE: GHR=11111111 Hash=11111010 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 8 | Mispredicts: 8 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 480000 ns
+FETCH:    PC=0x00000018  Instr=0x00000000  | GSHARE: GHR=11111111 Hash=11111001 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000014  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=1 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=1 FlushE=1
+STATS:    Branches Resolved: 9 | Mispredicts: 9 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 490000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000000  Instr=0x00000000  rs1= 0 rs2= 0 rd= 0
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 9 | Mispredicts: 9 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 500000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000000  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000000
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 9 | Mispredicts: 9 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 510000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=10 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd= 0
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 9 | Mispredicts: 9 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 520000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd= 0
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 9 | Mispredicts: 9 | ACCURACY: 0.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 530000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 10 | Mispredicts: 9 | ACCURACY: 10.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 540000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 10 | Mispredicts: 9 | ACCURACY: 10.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 550000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 10 | Mispredicts: 9 | ACCURACY: 10.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 560000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 11 | Mispredicts: 9 | ACCURACY: 18.18%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 570000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 11 | Mispredicts: 9 | ACCURACY: 18.18%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 580000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 11 | Mispredicts: 9 | ACCURACY: 18.18%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 590000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 12 | Mispredicts: 9 | ACCURACY: 25.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 600000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 12 | Mispredicts: 9 | ACCURACY: 25.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 610000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 12 | Mispredicts: 9 | ACCURACY: 25.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 620000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 13 | Mispredicts: 9 | ACCURACY: 30.77%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 630000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 13 | Mispredicts: 9 | ACCURACY: 30.77%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 640000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 13 | Mispredicts: 9 | ACCURACY: 30.77%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 650000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 14 | Mispredicts: 9 | ACCURACY: 35.71%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 660000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 14 | Mispredicts: 9 | ACCURACY: 35.71%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 670000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 14 | Mispredicts: 9 | ACCURACY: 35.71%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 680000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 15 | Mispredicts: 9 | ACCURACY: 40.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 690000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 15 | Mispredicts: 9 | ACCURACY: 40.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 700000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 15 | Mispredicts: 9 | ACCURACY: 40.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 710000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 16 | Mispredicts: 9 | ACCURACY: 43.75%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 720000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 16 | Mispredicts: 9 | ACCURACY: 43.75%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 730000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 16 | Mispredicts: 9 | ACCURACY: 43.75%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 740000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 17 | Mispredicts: 9 | ACCURACY: 47.06%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 750000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 17 | Mispredicts: 9 | ACCURACY: 47.06%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 760000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 17 | Mispredicts: 9 | ACCURACY: 47.06%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 770000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 18 | Mispredicts: 9 | ACCURACY: 50.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 780000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 18 | Mispredicts: 9 | ACCURACY: 50.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 790000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 18 | Mispredicts: 9 | ACCURACY: 50.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 800000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 19 | Mispredicts: 9 | ACCURACY: 52.63%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 810000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 19 | Mispredicts: 9 | ACCURACY: 52.63%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 820000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 19 | Mispredicts: 9 | ACCURACY: 52.63%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 830000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 20 | Mispredicts: 9 | ACCURACY: 55.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 840000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 20 | Mispredicts: 9 | ACCURACY: 55.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 850000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 20 | Mispredicts: 9 | ACCURACY: 55.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 860000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 21 | Mispredicts: 9 | ACCURACY: 57.14%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 870000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 21 | Mispredicts: 9 | ACCURACY: 57.14%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 880000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 21 | Mispredicts: 9 | ACCURACY: 57.14%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 890000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 22 | Mispredicts: 9 | ACCURACY: 59.09%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 900000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 22 | Mispredicts: 9 | ACCURACY: 59.09%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 910000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 22 | Mispredicts: 9 | ACCURACY: 59.09%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 920000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 23 | Mispredicts: 9 | ACCURACY: 60.87%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 930000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 23 | Mispredicts: 9 | ACCURACY: 60.87%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 940000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 23 | Mispredicts: 9 | ACCURACY: 60.87%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 950000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 24 | Mispredicts: 9 | ACCURACY: 62.50%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 960000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 24 | Mispredicts: 9 | ACCURACY: 62.50%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 970000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 24 | Mispredicts: 9 | ACCURACY: 62.50%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 980000 ns
+FETCH:    PC=0x0000000c  Instr=0x00730e33  | GSHARE: GHR=11111111 Hash=11111100 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000008  Instr=0x007302b3  rs1= 6 rs2= 7 rd= 5
+EXECUTE:  PC=0x00000010  ALUout=0x00000000  Zero=1 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000007  rd=28
+WRITEBACK:Result=0x00000007  RegWrite=1  rd= 5
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 25 | Mispredicts: 9 | ACCURACY: 64.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 990000 ns
+FETCH:    PC=0x00000010  Instr=0xfe000ce3  | GSHARE: GHR=11111111 Hash=11111011 PHT=11 PredTaken=1 PredTgt=0x00000008
+DECODE:   PC=0x0000000c  Instr=0x00730e33  rs1= 6 rs2= 7 rd=28
+EXECUTE:  PC=0x00000008  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x00000008
+MEMORY:   ALUres=0x00000000  rd=25
+WRITEBACK:Result=0x00000007  RegWrite=1  rd=28
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 25 | Mispredicts: 9 | ACCURACY: 64.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007
+--------------------------------------------------------------
+Time: 1000000 ns
+FETCH:    PC=0x00000008  Instr=0x007302b3  | GSHARE: GHR=11111111 Hash=11111101 PHT=01 PredTaken=0 PredTgt=0x00000000
+DECODE:   PC=0x00000010  Instr=0xfe000ce3  rs1= 0 rs2= 0 rd=25
+EXECUTE:  PC=0x0000000c  ALUout=0x00000007  Zero=0 | MISPREDICT=0 ActualTgt=0x0000000c
+MEMORY:   ALUres=0x00000007  rd= 5
+WRITEBACK:Result=0x00000000  RegWrite=0  rd=25
+HAZARD:   StallF=0 StallD=0 FlushD=0 FlushE=0
+STATS:    Branches Resolved: 25 | Mispredicts: 9 | ACCURACY: 64.00%
+REGS:     t0(x5)=0x00000007  t1(x6)=0x00000003  t2(x7)=0x00000004  t3(x28)=0x00000007

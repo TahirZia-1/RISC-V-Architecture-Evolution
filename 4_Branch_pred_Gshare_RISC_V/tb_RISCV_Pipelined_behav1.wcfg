@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_RISCV_Pipelined_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_RISCV_Pipelined" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1500381600fs"></ZoomStartTime>
+      <ZoomEndTime time="1537631601fs"></ZoomEndTime>
+      <Cursor1Time time="4758116000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="99"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/tb_RISCV_Pipelined/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/total_branches" type="array">
+      <obj_property name="ElementShortName">total_branches[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_branches[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/mispredict_count" type="array">
+      <obj_property name="ElementShortName">mispredict_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mispredict_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/current_accuracy" type="other">
+      <obj_property name="ElementShortName">current_accuracy</obj_property>
+      <obj_property name="ObjectShortName">current_accuracy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pc_F" type="array">
+      <obj_property name="ElementShortName">pc_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/instr_F" type="array">
+      <obj_property name="ElementShortName">instr_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pc_plus4_F" type="array">
+      <obj_property name="ElementShortName">pc_plus4_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_plus4_F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/ghr" type="array">
+      <obj_property name="ElementShortName">ghr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ghr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/hash_F" type="array">
+      <obj_property name="ElementShortName">hash_F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hash_F[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pht_state" type="array">
+      <obj_property name="ElementShortName">pht_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pht_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pred_taken" type="logic">
+      <obj_property name="ElementShortName">pred_taken</obj_property>
+      <obj_property name="ObjectShortName">pred_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pred_tgt" type="array">
+      <obj_property name="ElementShortName">pred_tgt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pred_tgt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/instr_D" type="array">
+      <obj_property name="ElementShortName">instr_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pc_D" type="array">
+      <obj_property name="ElementShortName">pc_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/rs1_D" type="array">
+      <obj_property name="ElementShortName">rs1_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/rs2_D" type="array">
+      <obj_property name="ElementShortName">rs2_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/rd_D" type="array">
+      <obj_property name="ElementShortName">rd_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pc_E" type="array">
+      <obj_property name="ElementShortName">pc_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/alu_out_E" type="array">
+      <obj_property name="ElementShortName">alu_out_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/zero_E" type="logic">
+      <obj_property name="ElementShortName">zero_E</obj_property>
+      <obj_property name="ObjectShortName">zero_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/pctarget_E" type="array">
+      <obj_property name="ElementShortName">pctarget_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pctarget_E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/mispredict" type="logic">
+      <obj_property name="ElementShortName">mispredict</obj_property>
+      <obj_property name="ObjectShortName">mispredict</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/alu_out_M" type="array">
+      <obj_property name="ElementShortName">alu_out_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/rd_M" type="array">
+      <obj_property name="ElementShortName">rd_M[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_M[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/result_W" type="array">
+      <obj_property name="ElementShortName">result_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/rd_W" type="array">
+      <obj_property name="ElementShortName">rd_W[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_W[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/RegWriteW" type="logic">
+      <obj_property name="ElementShortName">RegWriteW</obj_property>
+      <obj_property name="ObjectShortName">RegWriteW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/StallF" type="logic">
+      <obj_property name="ElementShortName">StallF</obj_property>
+      <obj_property name="ObjectShortName">StallF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/StallD" type="logic">
+      <obj_property name="ElementShortName">StallD</obj_property>
+      <obj_property name="ObjectShortName">StallD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/FlushE" type="logic">
+      <obj_property name="ElementShortName">FlushE</obj_property>
+      <obj_property name="ObjectShortName">FlushE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_RISCV_Pipelined/FlushD" type="logic">
+      <obj_property name="ElementShortName">FlushD</obj_property>
+      <obj_property name="ObjectShortName">FlushD</obj_property>
+   </wvobject>
+</wave_config>
