@@ -53,6 +53,6 @@ The core was rigorously verified using custom assembly test programs loaded into
 **Tools:** The SystemVerilog RTL is fully synthesizable and compatible with standard EDA tools and simulators, including Vivado, Riviera-PRO, and ModelSim.
 
 ### Running a Simulation
-1. Compile all `.sv` files in the desired architecture directory (e.g., `03_Pipelined`).
+1. Compile all `.sv` files in the desired architecture directory (e.g., `3_Pipelined_RISC_V`).
 2. Run the associated testbench (`tb_RISCV_Pipelined.sv`).
 3. View the generated `dump.vcd` file in your preferred waveform viewer to observe pipeline stage registers, forwarding multiplexer selections, and hazard unit stall/flush signals.
