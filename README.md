@@ -24,13 +24,13 @@ The processor supports core RISC-V instruction formats:
 
 ## 🚀 The 5-Stage Pipelined Core & Hazard Mitigation
 
-![RISC-V Pipelined Architecture Block Diagram](Pipelined_Block_Diagram.png)
+![RISC-V Pipelined Architecture Block Diagram](3_Pipelined_RISC_V/Pipelined_Block_Diagram.png)
 
-![RISC-V Pipelined Architecture Schematic](schematic.png)
+![RISC-V Pipelined Architecture Schematic](3_Pipelined_RISC_V/schematic.png)
 
-![RISC-V Pipelined Architecture Upper Waveform](w1.png)
+![RISC-V Pipelined Architecture Upper Waveform](3_Pipelined_RISC_V/w1.png)
 
-![RISC-V Pipelined Architecture Lower Waveform](w2.png)
+![RISC-V Pipelined Architecture Lower Waveform](3_Pipelined_RISC_V/w2.png)
 
 
 
